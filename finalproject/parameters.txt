@@ -1,0 +1,74 @@
+COOL PARAMETERS
+
+RE_MIN = -1.7;
+RE_MAX =  1.7;
+IM_MIN = -1.7;
+IM_MAX =  1.7;
+RE_RES = 1001;
+IM_RES = 1001;
+C = complex(-0.77, 0.3);
+MAX_ITER = 80;
+POW = sqrt(5);
+
+RE_MIN = -1.7;
+RE_MAX =  1.7;
+IM_MIN = -1.7;
+IM_MAX =  1.7;
+RE_RES = 1001;
+IM_RES = 1001;
+C = complex(-0.2, -0.5);
+MAX_ITER = 80;
+POW = sqrt(3);
+
+RE_MIN = -1.7;
+RE_MAX =  1.7;
+IM_MIN = -1.7;
+IM_MAX =  1.7;
+RE_RES = 1001;
+IM_RES = 1001;
+C = complex(0.4,-0.4);
+MAX_ITER = 90;
+POW = sqrt(5);
+
+Candle Flame
+RE_MIN = -1.7;
+RE_MAX =  1.7;
+IM_MIN = -1.7;
+IM_MAX =  1.7;
+RE_RES = 701;
+IM_RES = 701;
+C = complex(-0.77, 0.3);
+MAX_ITER = 80;
+POW = sqrt(2);
+
+% parameters for image
+% bounds for plotting
+RE_MIN = -1.7;
+RE_MAX =  1.7;
+IM_MIN = -1.7;
+IM_MAX =  1.7;
+% real and imaginary resolution
+RE_RES = 501;
+IM_RES = 501;
+% complex constant C
+C = complex(-0.4, 0.6);
+% maximum number of iterations for algorithm to run
+MAX_ITER = 100;
+% power for Z
+POW = 7;
+
+% parameters for image
+% bounds for plotting
+RE_MIN = -1.7;
+RE_MAX =  1.7;
+IM_MIN = -1.7;
+IM_MAX =  1.7;
+% real and imaginary resolution
+RE_RES = 501;
+IM_RES = 501;
+% complex constant C
+C = complex(-0.7, -0.1);
+% maximum number of iterations for algorithm to run
+MAX_ITER = 100;
+% power for Z
+POW = complex(-0.3, -0.4);

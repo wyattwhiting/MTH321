@@ -1,0 +1,90 @@
+\documentclass[10pt, reqno]{article}
+
+\usepackage{amsmath}
+
+\title{\LaTeX \ Homework Assignment \\
+Due 03/12/2021}
+\author{Wyatt Whiting}
+\date{March 12, 2021}
+
+\begin{document}
+
+\maketitle
+
+Typeset the following lines (i.e. create an exact copy of this document using \LaTeX).
+
+\section{First group of exercises}
+
+\begin{enumerate}
+\item $v = (v_1,v_2,v_3)^t$
+\item $f_n(x) = x^n + a_{n - 1}x^{n - 1} + \cdots + a_1x + a_0$
+\item $g(x)=\int_0^{\infty}G(t,x)dt$
+\item $\sum_{i=1}^{\infty}x^i$
+\item \[\sum_{i=1}^{\infty}x^i \]
+\item We say that $\lambda$ is an eigenvalue of a matrix $A$ corresponding to eigenvector $u$ if $Au=\lambda u$. For example,
+
+\[ 
+\begin{bmatrix}
+\ \  -1 & \frac{1}{3}\ \ \\
+0 & 2 \ \ 
+\end{bmatrix} 
+\begin{bmatrix}
+\ 1\ \\
+\ 0\  
+\end{bmatrix}
+=
+(-1)
+\begin{bmatrix}
+\ 1\  \\ 
+\ 0\ 
+\end{bmatrix}, 
+\]
+
+
+so $-1$ is an eigenvector of the matrix on the left corresponding to the eigenvector $(1, 0)^T$.
+
+\end{enumerate}
+
+\begin{center}
+	\begin{tabular}{||l|r|}
+	\hline
+	\multicolumn{2}{||c|}{Fruit Prices} \tabularnewline
+	\hline
+	apples & \$.50 \tabularnewline
+	peaches & \$1.25 \tabularnewline
+	\hline
+	\end{tabular}
+\end{center}
+
+\newpage
+
+\section{Second group of exercises}
+
+Here are some more nice exercises for \LaTeX. Try a piecewise defined function:
+
+\[ 
+f(x)=\begin{cases}
+		x^2 \, &x > 0 \\
+		0 \, &\text{otherwise} \\
+	 \end{cases}
+\]
+
+Here is an example using Greek letters.
+
+\[ 
+\Lambda_N = \sum_{n=0}^N \frac{1}{\lambda^n}
+\]
+
+
+
+For the following, 	
+
+\begin{align}
+\sum_{i = 1}^{2^N - 1} \frac{1}{i} &= 1 + \frac{1}{2} + \cdots + \frac{1}{2^N - 1} \label{eq:1}\\
+&> \frac{1}{2}+\frac{1}{4}+\frac{1}{4}+\overbrace{\frac{1}{8}+\cdots+\frac{1}{8}}^{\text{4 times}} + \cdots + \frac{1}{2^N}, \quad \text{for }N>3 \label{eq:2}
+\end{align}
+
+\noindent Note lines \eqref{eq:1} and \eqref{eq:2}. You must use \verb+\label{}+ and \verb+\eqref{}+ to make references to equations \eqref{eq:1} and \eqref{eq:2}.
+
+
+\end{document}

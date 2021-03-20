@@ -1,0 +1,7 @@
+# ignore final images
+finalproject/images/
+
+# ignore .tex intermediates
+*.synctex.gz
+*.aux
+*.log
